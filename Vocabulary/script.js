@@ -83,7 +83,7 @@ function helpMe() {
   shuffleArray(incorrectOptions);
   let toRemove = incorrectOptions.slice(0, 2);
   toRemove.forEach(button => button.remove());
-  document.getElementById('help-button').disabled = true;
+
 }
 
 window.onload = () => setLevel(1);
